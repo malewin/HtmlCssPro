@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./font/stylesheet.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<script src="app.js" defer></script>
+	<title>Product page</title>
+</head>
+
+<body>
+	<header class="header center">
+		<div class="header__left">
+			<a href="index.html" class="logo"><img src="images/logo.png" alt="Логотип"></a>
+			<div class="header-search">
+				<img src="images/search.png" alt="search">
+				<input type="text" placeholder="search">
+			</div>
+		</div>
+		<div class="header__right">
+			<details>
+				<summary>
+					<div class="header__right_burger"></div>
+				</summary>
+				<nav class="breadcrumbsBurger">
+					<a href="registration.html" class="breadcrumbsBurger__user">Вход / Регистрация</a>
+					<a href="cart.html" class="breadcrumbsBurger__user breadcrumbsBurger__user_basket">Корзина</a>
+					<h3 class="breadcrumbsBurger__title">MENU</h3>
+					<div class="breadcrumbsBurger__listContainer">
+						<a class="breadcrumbsBurger__subtitle">MAN</a>
+						<ul class="breadcrumbsBurger__list">
+							<li><a href="" class="breadcrumbsBurger__link_menu">Accessories</a></li>
+							<li><a href="" class="breadcrumbsBurger__link_menu">Bags</a></li>
+							<li><a href="" class="breadcrumbsBurger__link_menu">Denim</a></li>
+							<li><a href="" class="breadcrumbsBurger__link_menu">T-Shirts</a></li>
+						</ul>
+					</div>
+					<div class="breadcrumbsBurger__listContainer">
+						<a class="breadcrumbsBurger__subtitle">WOMAN</a>
+						<ul class="breadcrumbsBurger__list">
+							<li><a href="" class="breadcrumbsBurger__link_menu">Accessories</a></li>
+							<li><a href="" class="breadcrumbsBurger__link_menu">Jackets & Coats</a></li>
+							<li><a href="" class="breadcrumbsBurger__link_menu">Polos</a></li>
+							<li><a href="" class="breadcrumbsBurger__link_menu">T-Shirts</a></li>
+							<li><a href="" class="breadcrumbsBurger__link_menu">Shirts</a></li>
+						</ul>
+					</div>
+					<div class="breadcrumbsBurger__listContainer">
+						<a class="breadcrumbsBurger__subtitle">KIDS</a>
+						<ul class="breadcrumbsBurger__list">
+							<li><a href="#" class="breadcrumbsBurger__link_menu">Accessories</a></li>
+							<li><a href="#" class="breadcrumbsBurger__link_menu">Jackets & Coats</a></li>
+							<li><a href="#" class="breadcrumbsBurger__link_menu">Polos</a></li>
+							<li><a href="#" class="breadcrumbsBurger__link_menu">T-Shirts</a></li>
+							<li><a href="#" class="breadcrumbsBurger__link_menu">Shirts</a></li>
+							<li><a href="#" class="breadcrumbsBurger__link_menu">Bags</a></li>
+						</ul>
+					</div>
+					<button class="breadcrumbsBurger__buttonClose"><img src="images/close_button-Burger.png"
+							alt="button close"></button>
+				</nav>
+			</details>
+			<a href="registration.html" class="header__right_user"><img src="images/user.png" alt="Пользователь"></a>
+			<div class="header__right_basket">
+				<a href="cart.html"><img src="images/basket.png" alt="Корзина"></a>
+			</div>
+		</div>
+	</header>
+	<div class="top-head center">
+		<h2 class="top-head__heading">NEW ARRIVALS</h2>
+		<nav class="breadcrumbs">
+			<a href="index.html" class="breadcrumbs__link">HOME /</a>
+			<a href="catalog.html" class="breadcrumbs__link">MEN /</a>
+			<a href="product.html" class="breadcrumbs__link breadcrumbs__link_site">NEW ARRIVALS</a>
+		</nav>
+	</div>
+	<div class="slider">
+		<button class="slider__button_left">
+			< </button>
+				<div class="slider-box">
+					<img src="images/slider_image1.png" alt="Фото продукта 1">
+				</div>
+				<button class="slider__button_right"> > </button>
+	</div>
+
+	<div class="women-collectionConatainer">
+		<div class="women-collection">
+			<h2 class="women-collection__title">WOMEN COLLECTION</h2>
+			<span class="women-collection__subtitle">MOSCHINO CHEAP AND CHIC</span>
+			<p class="women-collection__discription">
+				Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate
+				collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather
+				than exceptional portals.
+			</p>
+			<span class="women-collection__price">$561</span>
+			<div class="option-box">
+
+				<div class="checkbox-container">
+					<div class="checkbox__title">
+						<p class="checkbox__text">CHOOSE COLOR</p>
+						<div class="checkbox__image"></div>
+					</div>
+					<div class="checkbox__choice checkbox__choice_product">
+						<div>
+							<input type="checkbox">
+							<label>Red</label>
+						</div>
+						<div>
+							<input type="checkbox">
+							<label>Blue</label>
+						</div>
+					</div>
+				</div>
+
+				<div class="checkbox-container checkbox__title_widthSize">
+					<div class="checkbox__title checkbox__title_widthSize">
+						<p class="checkbox__text checkbox__text_product">CHOOSE SIZE</p>
+						<div class="checkbox__image"></div>
+					</div>
+					<div class="checkbox__choice">
+						<div>
+							<input type="checkbox">
+							<label>XL</label>
+						</div>
+						<div>
+							<input type="checkbox">
+							<label>M</label>
+						</div>
+					</div>
+				</div>
+				<div class="checkbox-container checkbox__title_widthQuantity">
+					<div class="checkbox__title checkbox__title_widthQuantity">
+						<p class="checkbox__text checkbox__text_productQuantity">QUANTITY</p>
+						<div class="checkbox__image"></div>
+					</div>
+					<div class="checkbox__choice checkbox__title_widthQuantity">
+						<div>
+							<input type="checkbox">
+							<label>1</label>
+						</div>
+						<div>
+							<input type="checkbox">
+							<label>2</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button class="women-collection__button-add">
+				<img src="images/basket_pink.png" alt="Корзина">
+				<div class="button-text">Add to Cart</div>
+			</button>
+		</div>
+	</div>
+
+	<div class="product-box center">
+		<div class="product">
+			<img class="product__img" src="images/product1.png" alt="Первый продукт">
+			<div class="product__content">
+				<a href="#" class="product__name">
+					ELLERY X M'O CAPSULE
+				</a>
+				<p class="product__text">
+					Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with
+					Moda Operandi.
+				</p>
+				<p class="product__price">$52.00</p>
+			</div>
+		</div>
+		<div class="product">
+			<img class="product__img" src="images/product2.png" alt="Второй продукт">
+			<div class="product__content">
+				<a href="#" class="product__name">
+					ELLERY X M'O CAPSULE
+				</a>
+				<p class="product__text">
+					Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with
+					Moda Operandi.
+				</p>
+				<p class="product__price">$52.00</p>
+			</div>
+		</div>
+		<div class="product">
+			<img class="product__img" src="images/product3.png" alt="Третий продукт">
+			<div class="product__content">
+				<a href="#" class="product__name">
+					ELLERY X M'O CAPSULE
+				</a>
+				<p class="product__text">
+					Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with
+					Moda Operandi.
+				</p>
+				<p class="product__price">$52.00</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="subscribe-box center">
+		<div class="subscribe-box__left">
+			<img src="images/subscribe_photo.png" alt="Фото подписчика">
+			<p class="subscribe-box__left_disc">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, <i>a pulvinar purus
+					condimentum</i>“</p>
+		</div>
+		<div class="subscribe-box__right">
+			<h2 class="subscribe-box__right_title">SUBSCRIBE</h2>
+			<span class="subscribe-box__right_disc">FOR OUR NEWLETTER AND PROMOTION</span>
+			<form action="#" class="form-subscribe">
+				<input class="field-enter" type="text" placeholder="Enter Your Email">
+				<input class="sibmit-subscribe" type="submit" value="Subscribe">
+			</form>
+		</div>
+	</div>
+	<footer class="footer center">
+		<span class="footer__text">&copy; 2023 All Rights Reserved.</span>
+		<div class="footer__social">
+			<a href="https://rossgram.ru"><img src="images/rosgram.png" alt="Росграм"></a>
+			<a href="https://twitter.com"><img src="images/twitter.png" alt="Твитер"></a>
+		</div>
+	</footer>
+</body>
+
+</html>
